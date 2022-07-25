@@ -1,7 +1,6 @@
 {
  "User":{
    "name":{"loremWords":{"minLength":5,"maxLength":20}},
-   "email":{"regexp":"^[a-z][a-z\\d]{5,}@[a-z]+"},
   "age":{"int":{"min":16,"max":100}},
   "posts":{"hasMany":"Post"}
  },
