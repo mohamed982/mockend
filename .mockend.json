@@ -5,6 +5,7 @@
    },
    "email":{
       "regexp":"^[a-z][a-z\\d]{5,}@(yahoo|hotmail|gmail)\\.(com|org|net)"
-   }
+   },
+  "age":{"int":{"min":16,"max":100}}
  }
 }
