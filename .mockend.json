@@ -2,7 +2,7 @@
  "User":{
    "name":{"loremWords":{"minLength":5,"maxLength":20}},
  "phone":{"regexp":"^(010|011|012|015)[0-9]{8}$"},
-  "email":{"regexp":"[a-z]{5,10}@[a-z]+"}
+  "email":{"regexp":"[a-z]{5,10}@[a-z]+\\.(com)"},
   "age":{"int":{"min":16,"max":100}},
   "posts":{"hasMany":"Post"}
  },
