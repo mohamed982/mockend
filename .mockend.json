@@ -6,6 +6,15 @@
    "email":{
       "regexp":"^[a-z][a-z\\d]{5,}@(yahoo|hotmail|gmail)\\.(com|org|net)"
    },
-  "age":{"int":{"min":16,"max":100}}
+  "age":{"int":{"min":16,"max":100}},
+  "posts":{"hashMany":"Post"}
+ },
+ "Post":{
+   "title":{
+     "leremWords":{"minLength":3,"maxLength":10}
+   },
+  "body":{
+   "loremParagraphs":{"minLength":1,"maxLength:200}
+   }
  }
 }
