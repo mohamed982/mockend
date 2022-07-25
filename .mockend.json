@@ -10,12 +10,14 @@
   "posts":{"hasMany":"Post"}
  },
  "Post":{
-   "title":{
-     "leremWords":{"minLength":3,"maxLength":10}
-   },
-  "body":{
-   "loremParagraphs":{"minLength":1,"maxLength":200}
-   }
+   "title":{"loremWords":{"minLength":3,"maxLength":10}},
+   "body":{"loremParagraphs":{"minLength":1,"maxLength":200}},
+   "comments":{"hasMany":"Comment"},
+   "user":{"belongsTo":"User"}
  },
- "user":{"belongsTo":"User"}
+ "Comment":{
+    "user":{"belongsTo":"User"},
+    "post":{"belongsTo":"Post"},
+    "body":{"loremParagraphs":{"minLength":1,"maxLength":200}}
+ }
 }
