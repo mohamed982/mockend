@@ -10,8 +10,8 @@
   "posts":{"hasMany":"Post"}
  },
  "Post":{
-   "title":{"loremWords":{"minLength":3,"maxLength":10}},
-   "body":{"loremParagraphs":{"minLength":1,"maxLength":200}},
+   "title":{"loremParagraphs":{"minLength":3,"maxLength":10}},
+   "body":{"loremParagraphs":{"minLength":5,"maxLength":200}},
    "comments":{"hasMany":"Comment"},
    "user":{"belongsTo":"User"}
  },
