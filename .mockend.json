@@ -4,7 +4,7 @@
     "loremWords":{"minLength":2,"maxLength":3}
    },
    "email":{
-      "regexp":"^[a-z]{3,5}@[a-z]{3,10}\\.com"
+      "regexp":"^[a-z][a-zA-Z\\d]@[a-z]{3,10}\\.com"
    }
  }
 }
