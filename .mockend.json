@@ -1,10 +1,10 @@
 {
  "User":{
    "name":{
-    "loremWords":{"min":2,"max":3}
+    "loremWords":{"minLength":2,"maxLength":3}
    },
    "email":{
-      "regex":"^[a-z]{20}"
+      "regex":"^[a-z]+@{1}/.com$"
    }
  }
 }
