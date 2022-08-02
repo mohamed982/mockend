@@ -1,6 +1,6 @@
 {
  "Booking":{
    "name":{"regexp":"[A-Za-z]{5,10}"},
-  "arrival":{"dateTime":{"min":"2022-08-01T00:00:00Z","max":"2022-08-31T23:59:59Z"}}
+  "arrival":{"dateTime":{"min":"2022-08-01T00:00:00Z","max":"2022-08-31T00:00:00Z"}}
  }
 }
