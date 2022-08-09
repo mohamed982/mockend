@@ -5,5 +5,8 @@
   "floor":{"int":{"min":0,"max":2}},
   "rooms":{"int":{"min":0,"max":3}},
   "status":{"string":["Busy","Vacant","Locked"]}
+ },
+ "Booking":{
+  "name":{"regexp":"^[A-Z][a-z]{3,10}\\s{1}[A-Z]{1}[a-z]{3,10}\\s[A-Z]{1}[a-z]{3,10}$"}
  }
 }
