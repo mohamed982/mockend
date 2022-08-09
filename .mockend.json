@@ -1,5 +1,9 @@
 {
  "Room":{
-   "roomNum":{"int":{"min":40101,"max":43109}}
+   "roomNum":{"int":{"min":40101,"max":43109}},
+  "type":{"string":["chalet","villa","studio"]},
+  "floor":{"int":{"min":0,"max":2}},
+  "rooms":{"int":{"min":0,"max":3}},
+  "status":{"string":["Busy","Vacant","Locked"]}
  }
 }
