@@ -1,5 +1,5 @@
 {
  "Room":{
-   "roomNum":{"int":{"min":40101,"max:"43109}}
+   "roomNum":{"int":{"min":40101,"max":43109}}
  }
 }
