@@ -1,7 +1,5 @@
 {
- "Booking":{
-   "name":{"loremWords":{"minLength":2,"maxLength":4}},
-  "arrival":{"dateTime":{"min":"2022-08-01T00:00:00Z","max":"2022-08-31T00:00:00Z"}},
-  "phone":{"regexp": "^(010|011|012|015)\\d{8}"}
+ "Room":{
+   "roomNum:"{"int":{"min":40101,"max:"43109}}
  }
 }
