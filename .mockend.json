@@ -11,6 +11,6 @@
   "phone":{"regexp":"^(011|015|010|012)[0-9]{8}$"},
   "room":{"int":{"min":40101,"max":43109}},
   "duration:":{"int":{"min":2,"max":30}},
-  "price":{"int":{"min":300,"max":2000"}}
+  "price":{"int":{"min":300,"max":2000}}
  }
 }
