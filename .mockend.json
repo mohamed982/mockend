@@ -13,5 +13,10 @@
   "duration":{"int":{"min":2,"max":7}},
   "price":{"int":{"min":500,"max":1300}},
   "status":{"string":["checkedIn","waiting"]}
+ },
+ "Owner":{
+   "name":{"regexp":"^[A-Z][a-z]{3,7}\\s[A-Z][a-z]{3,7}\\s[A-Z][a-z]{3,7}$"},
+   "phone":{"regexp":"^(011|015|010|012)[0-9]{8}$"},
+   "phone2":{"regexp":"^(011|015|010|012)[0-9]{8}$"}
  }
 }
