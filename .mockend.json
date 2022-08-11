@@ -12,7 +12,8 @@
   "room":{"int":{"min":40101,"max":43109}},
   "duration":{"int":{"min":2,"max":7}},
   "price":{"int":{"min":500,"max":1300}},
-  "status":{"string":["checkedIn","waiting"]}
+  "status":{"string":["checkedIn","pending","canceled","checkedOut"]},
+  "from":{"datetime":{"min":"2022-08-01"}}
  },
  "Owner":{
    "name":{"regexp":"^[A-Z][a-z]{3,7}\\s[A-Z][a-z]{3,7}\\s[A-Z][a-z]{3,7}$"},
